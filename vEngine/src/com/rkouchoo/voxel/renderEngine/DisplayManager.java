@@ -67,6 +67,7 @@ public class DisplayManager {
 	public static void closeDisplay() {
 		
 		Main.loader.cleanUp();
+		Main.staticShader.cleanUp(); 
 		
 		Display.destroy();
 		System.exit(1);

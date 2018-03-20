@@ -1,9 +1,9 @@
-package com.rkouchoo.voxel.renderEngine;
+ package com.rkouchoo.voxel.renderEngine;
 
 import org.lwjgl.opengl.GL11;
 
-import com.rkouchoo.renderEngine.models.RawModel;
 import com.rkouchoo.voxel.constants.RenderConstants;
+import com.rkouchoo.voxel.renderEngine.models.TexturedModel;
 
 public class MasterRenderer {
 
@@ -12,7 +12,7 @@ public class MasterRenderer {
 		GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
 	}
 	
-	public void render(RawModel model) {
+	public void render(TexturedModel model) {
 		EntityRenderer.render(model);
 	}
 }

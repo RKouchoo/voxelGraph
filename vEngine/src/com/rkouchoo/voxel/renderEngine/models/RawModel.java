@@ -1,4 +1,4 @@
-package com.rkouchoo.renderEngine.models;
+package com.rkouchoo.voxel.renderEngine.models;
 
 public class RawModel {
 

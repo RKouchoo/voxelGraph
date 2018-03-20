@@ -1,4 +1,4 @@
-package com.rkouchoo.renderEngine.entities;
+package com.rkouchoo.voxel.renderEngine.entities;
 
 /*
  * Numbers to generate a simple rectangle on the screen.
@@ -16,5 +16,12 @@ public class SimpleRectangle {
 			-0.5f, -0.5f, 0,
 			0.5f, -0.5f, 0, 
 			0.5f, 0.5f, 0, 	
+	};
+	
+	public static final float[] UV = {
+			0, 0,
+			0, 1,
+			1, 1,
+			1, 0
 	};
 }
