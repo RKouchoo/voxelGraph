@@ -42,7 +42,6 @@ public class Camera {
 		this.position.x += dx;
 		this.position.y += dy;
 		this.position.z += dz;
-
 	}
 
 	public Vector3f getPosition() {
